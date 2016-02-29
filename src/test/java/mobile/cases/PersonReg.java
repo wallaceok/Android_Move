@@ -6,7 +6,9 @@ import org.testng.annotations.Test;
 
 public class PersonReg extends TestBase{
 
-
+	/**
+	 * 注册后，未认证进行点击：付款  收款  扫码  添加银行卡 冻结资金 交易记录 电子对账单是否会弹出去认证的提示
+	 */
 	PersonRegBussiness personReg=new PersonRegBussiness();
 	@Test(dataProvider = "personReg", dataProviderClass = PersonRegData.class, enabled = true)
 	public void PersonReg11(String userName,String idCardCode,String phone, String codeSe,

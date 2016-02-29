@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25508" started-at="2016-02-17T11:34:43Z" finished-at="2016-02-17T11:35:09Z">
+  <suite name="Default suite" duration-ms="107828" started-at="2016-02-26T12:38:25Z" finished-at="2016-02-26T12:40:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25508" started-at="2016-02-17T11:34:43Z" finished-at="2016-02-17T11:35:09Z">
+    <test name="Default test" duration-ms="107828" started-at="2016-02-26T12:38:25Z" finished-at="2016-02-26T12:40:12Z">
       <class name="mobile.cases.PersonReg">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mobile.cases.PersonReg@2be94b0f]" name="beforeMethod" is-config="true" duration-ms="15360" started-at="2016-02-17T19:34:43Z" finished-at="2016-02-17T19:34:59Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mobile.cases.PersonReg@2be94b0f]" name="beforeMethod" is-config="true" duration-ms="14733" started-at="2016-02-26T20:38:25Z" finished-at="2016-02-26T20:38:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="PersonReg11(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mobile.cases.PersonReg@2be94b0f]" name="PersonReg11" duration-ms="10134" started-at="2016-02-17T19:34:59Z" data-provider="personReg" finished-at="2016-02-17T19:35:09Z">
+        <test-method status="PASS" signature="PersonReg11(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mobile.cases.PersonReg@2be94b0f]" name="PersonReg11" duration-ms="93079" started-at="2016-02-26T20:38:39Z" data-provider="personReg" finished-at="2016-02-26T20:40:12Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[13310862040]]>
+                <![CDATA[13610862055]]>
               </value>
             </param>
             <param index="3">

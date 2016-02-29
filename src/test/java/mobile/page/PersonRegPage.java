@@ -149,12 +149,35 @@ public class PersonRegPage{
 	 */
 	public void selectIndustry(WebDriver driver,String industry){
 		
-		//System.out.print(industry);//打印从事行业到控制台
-		this.getElement(driver, By.id("tv_industry_content")).setText(industry);
-		//driver.findElement(By.id("tv_industry_content")).sendKeys(industry);
-		//this.getSelect(driver,By.id("tv_industry_content"));
-	//	.selectOptionByText(industry);
+		driver.findElement(By.id("tv_industry_content")).sendKeys(industry);
+		
+	}
 	
+	/**
+	 * 点击完成按钮
+	 * @param driver
+	 */
+	public void hitComplete(WebDriver driver){
+		
+		driver.findElement(By.id("affirm_payment")).click();
+	}
+	
+	/**
+	 * 点击主界面的付款选项
+	 * @param driver
+	 */
+	public void hitPay(WebDriver driver){
+		
+		driver.findElement(By.id("text_name_one")).click();
+	}
+	
+	/**
+	 * 点击弹出认证框上面的取消按钮
+	 * @param driver
+	 */
+	public void hitCancel(WebDriver driver){
+		
+		driver.findElement(By.id("btn_cancel")).click();
 	}
 	
 }

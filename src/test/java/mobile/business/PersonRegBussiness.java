@@ -26,7 +26,13 @@ public class PersonRegBussiness{
 		    	Thread.sleep(1000);
 		    	personReg.setPassWord(driver, passWord);//设置登录密码
 		    	personReg.hitSubmit(driver);//点击"提交"按钮
-		    	personReg.selectIndustry(driver, industry);
+		    	Thread.sleep(6000);
+		    	personReg.selectIndustry(driver, industry);//选择从事行业
+		    	System.out.println("完成");
+		    	personReg.hitComplete(driver);//点击"完成"按钮
+		    	personReg.hitPay(driver);
+		    	Thread.sleep(1000);
+		    	personReg.hitCancel(driver);
 		    	
 		    }else{
 		    	
