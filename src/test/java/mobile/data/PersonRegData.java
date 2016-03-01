@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 
 public class PersonRegData {
 
-	public static String regPhone="13610862055";
+	public static String regPhone="13610862056";
 	public static String regIdCardNum="410928198806244222";
 	
 	/**

@@ -4,15 +4,9 @@ import io.appium.java_client.android.AndroidDriver;
 
 import java.io.File;
 import java.net.URL;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
-
-import com.util.CommonMethord;
 
 public class TestBase {
 	
@@ -36,8 +30,8 @@ public class TestBase {
 	        capabilities.setCapability("app", app.getAbsolutePath());//apk文件所在路径
 	      
 	        driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
-	        //向左滑动引导页
-	      /**  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//等待10秒
+	      /**  //向左滑动引导页
+	        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//等待10秒
    			Assert.assertTrue(driver.findElement(By.id("com.autochina.kypay:id/guide1")).isDisplayed());
 	        for(int i=0;i<=4;i++){
 	   			CommonMethord.swipeToLeft(driver, 800);  //向左滑动界面

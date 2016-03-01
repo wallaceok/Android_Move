@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mobile.cases.PersonReg">
+      <class name="mobile.cases.CompanyReg">
         <methods>
           <include name="beforeMethod"/>
-          <include name="PersonReg11"/>
+          <include name="EnterPriseReg" invocation-numbers="0"/>
         </methods>
-      </class> <!-- mobile.cases.PersonReg -->
+      </class> <!-- mobile.cases.CompanyReg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

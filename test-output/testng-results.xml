@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="107828" started-at="2016-02-26T12:38:25Z" finished-at="2016-02-26T12:40:12Z">
+  <suite name="Default suite" duration-ms="194502" started-at="2016-03-01T12:24:55Z" finished-at="2016-03-01T12:28:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="107828" started-at="2016-02-26T12:38:25Z" finished-at="2016-02-26T12:40:12Z">
-      <class name="mobile.cases.PersonReg">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mobile.cases.PersonReg@2be94b0f]" name="beforeMethod" is-config="true" duration-ms="14733" started-at="2016-02-26T20:38:25Z" finished-at="2016-02-26T20:38:39Z">
+    <test name="Default test" duration-ms="194502" started-at="2016-03-01T12:24:55Z" finished-at="2016-03-01T12:28:09Z">
+      <class name="mobile.cases.CompanyReg">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mobile.cases.CompanyReg@2be94b0f]" name="beforeMethod" is-config="true" duration-ms="16279" started-at="2016-03-01T20:24:55Z" finished-at="2016-03-01T20:25:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="PersonReg11(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mobile.cases.PersonReg@2be94b0f]" name="PersonReg11" duration-ms="93079" started-at="2016-02-26T20:38:39Z" data-provider="personReg" finished-at="2016-02-26T20:40:12Z">
+        <test-method status="FAIL" signature="EnterPriseReg(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mobile.cases.CompanyReg@2be94b0f]" name="EnterPriseReg" duration-ms="178190" started-at="2016-03-01T20:25:11Z" data-provider="enterpriseReg" finished-at="2016-03-01T20:28:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[寮犱細闈橾]>
+                <![CDATA[江123111]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[410928198806244222]]>
+                <![CDATA[156598745232551]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[13610862055]]>
+                <![CDATA[13310872044]]>
               </value>
             </param>
             <param index="3">
@@ -40,14 +40,101 @@
             </param>
             <param index="5">
               <value>
-                <![CDATA[姹介厤姹戒慨]]>
+                <![CDATA[邀请码]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[店名001]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[物流公司]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0371-3976491]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[上海市,上海市]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[江西路2号]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[介绍内容,汽配汽修]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'c190104', ip: '172.16.20.189', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=E:\workspace2\App_Auto\apps\DFB\KPay_42.apk, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=2eabbe04, platform=WINDOWS, desired={app=E:\workspace2\App_Auto\apps\DFB\KPay_42.apk, noReset=true, platformVersion=4.4, unicodeKeyboard=true, platformName=Android, deviceName=Android Emulator, resetKeyboard=true, platform=WINDOWS}, platformVersion=4.4.4, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 4d96dc00-27e8-48c8-a4a6-a325b7d1152e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Not yet implemented. Please help us: http://appium.io/get-involved.html (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'c190104', ip: '172.16.20.189', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=E:\workspace2\App_Auto\apps\DFB\KPay_42.apk, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=2eabbe04, platform=WINDOWS, desired={app=E:\workspace2\App_Auto\apps\DFB\KPay_42.apk, noReset=true, platformVersion=4.4, unicodeKeyboard=true, platformName=Android, deviceName=Android Emulator, resetKeyboard=true, platform=WINDOWS}, platformVersion=4.4.4, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: 4d96dc00-27e8-48c8-a4a6-a325b7d1152e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at mobile.business.CompanyRegBussiness.gotoUrl1(CompanyRegBussiness.java:83)
+	at mobile.business.CompanyRegBussiness.EnterpriseReg(CompanyRegBussiness.java:49)
+	at mobile.cases.CompanyReg.EnterPriseReg(CompanyReg.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PersonReg11 -->
-      </class> <!-- mobile.cases.PersonReg -->
+        </test-method> <!-- EnterPriseReg -->
+      </class> <!-- mobile.cases.CompanyReg -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
